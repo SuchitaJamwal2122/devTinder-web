@@ -29,7 +29,9 @@
 - Build the user card on feed
 - Create edit profile page
 - Display userCard besides edit profile form
-- Implement a tost to show the successful update of profile
+- Implement a tost to show the successful save of profile
+- See all my connections
+-
 
 Body
 NavBar
