@@ -33,10 +33,10 @@
 - See all my connections
 - New page to See all my connection requests
 - Feature - Accept/Reject Connection Request
+- Send/ignore the user card from feed
 
 Remaining:
 
-- Send/ignore the user card from feed
 - Signup new user
 - Testing E2E
 
