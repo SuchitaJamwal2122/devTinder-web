@@ -32,6 +32,13 @@
 - Implement a tost to show the successful save of profile
 - See all my connections
 - New page to See all my connection requests
+- Feature - Accept/Reject Connection Request
+
+Remaining:
+
+- Send/ignore the user card from feed
+- Signup new user
+- Testing E2E
 
 Body
 NavBar
