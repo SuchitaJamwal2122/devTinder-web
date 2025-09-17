@@ -46,3 +46,24 @@ Router=/ => Feed
 Route=/login => Login
 Route=/connections => connections
 Route=/profile => Profile
+
+# Deployment
+
+- Signup on AWS
+- Launch instance
+- chmod 400 <secret>.pem
+- ssh -i "devTinder-secret.pem" ubuntu@ec2-56-228-31-41.eu-north-1.compute.amazonaws.com
+- Install Node version 22.19.0
+- Git clone
+
+## Frontend
+
+    - npm install -> install the dependencies
+    - npm run build
+    - sudo apt update -> to update our server system
+    - sudo apt install nginx
+    - sudo systemctl start nginx
+    - sudo systemctl enable nginx
+    - copy code from dist(build files) to var/www/html/
+    - sudo scp -r dist/* /var/www/html/
+    - Enable port :80 of your instance (because by default nginx is present on port :80)
