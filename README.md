@@ -31,7 +31,7 @@
 - Display userCard besides edit profile form
 - Implement a tost to show the successful save of profile
 - See all my connections
--
+- New page to See all my connection requests
 
 Body
 NavBar
