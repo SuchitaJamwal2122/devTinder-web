@@ -81,3 +81,12 @@ Route=/profile => Profile
     - config nginx - /etc/nginx/sites-available/default
     - restart nginx  sudo systemctl restart nginx
     - Modify the frontend BASE_URL to /api
+
+## Adding a custom Domain Name
+
+- Purchased Domain Name from GoDaddy
+- Signup on CloudFlare & add a new domain name
+- Change the NameServers on GoDaddy and point it to cloudflare
+- Wait for sometime till your nameservers are updated
+- DNS Record: create a A record
+- Enable SSL for Website
