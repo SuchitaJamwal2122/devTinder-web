@@ -90,3 +90,18 @@ Route=/profile => Profile
 - Wait for sometime till your nameservers are updated
 - DNS Record: create a A record
 - Enable SSL for Website
+
+## Sending Emails via SES
+
+- Create a IAM user
+- Give access to AmazonSESSullAccess
+- Amazon SES: Create an Identity
+- Verify your domain name
+- Verify an email address
+- Install AWS SDK - v3
+- SEtup SesClient
+- Access Credentials should be created in IAM under SecurityCredentials Tab
+- Add the Credentials to the env file
+- Write code for SESClient
+- Write code for Sending email address
+- Making the email dynamic by passing more params to the run function
