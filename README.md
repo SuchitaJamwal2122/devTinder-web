@@ -67,3 +67,17 @@ Route=/profile => Profile
     - copy code from dist(build files) to var/www/html/
     - sudo scp -r dist/* /var/www/html/
     - Enable port :80 of your instance (because by default nginx is present on port :80)
+
+## Backend
+
+    - Allowed ec2 instance public IP on mongodb server
+    - Installed npm install pm2 -g
+    - pm2 start npm -- start
+    - pm2 logs
+    - pm2 flush npm (clearing your logs)
+    - pm2 list -> shows the list of processes running by pm2
+    - pm2 delete npm (deleting npm process from pm2)
+    - pm2 start npm --name "devTinder-backend" -- start (give custom name to your process)
+    - config nginx - /etc/nginx/sites-available/default
+    - restart nginx  sudo systemctl restart nginx
+    - Modify the frontend BASE_URL to /api
